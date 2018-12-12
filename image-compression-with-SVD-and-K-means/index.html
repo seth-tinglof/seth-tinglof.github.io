@@ -120,7 +120,7 @@
 
 <p>In my experimentation, I had much better results with K-means than SVD. However, we also saw that SVD can be modified to improve performance and is a faster algorithm. There is no reason that would could not use different rank approximations for different chunks in our SVD algorithm to improve performance further.</p>
 <p>The performance of K-Means is going to be directly linked to the number and variety of colors in the image. An image with a higher DPI may cause the algorithm to perform significantly worse, but the same may also be true for SVD (more entropy should make any compression algorithm worse). We could also modify our K-Means algorithm to operate on chunks of the image as we did with SVD.</p>
-<p>For future experiments, I should attempt to use my compression algorithms on larger images, and I should modify K-Means to break the image into chunks.</p>
+<p>For future experiments, I should attempt to use my compression algorithms on larger images, and I should modify K-Means to break the image into chunks.<br>I will attempt to update this blog later today with a more complex image.</p>
 <h3> Link to Code </h3>
 
 <p>All the code that I used to generate the mandrill can be found on my github <a href="https://github.com/seth-tinglof/Image_Compression" target="_blank" rel="external">here.</a> These files were designed to be easily customizable so that you could experiment for yourself.</p>
